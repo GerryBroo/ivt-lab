@@ -81,7 +81,7 @@ public class GT4500 implements SpaceShip {
         //TODO implement feature
         firingSuccess = true;
 
-        //edit branch-A :(
+        //edit branch-B :D
 
         break;
     }
