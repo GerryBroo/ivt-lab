@@ -1,0 +1,7 @@
+organization=gerrybroo
+projectKey=GerryBroo_ivt-lab
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.7205
+dashboardUrl=https://sonarcloud.io/dashboard?id=GerryBroo_ivt-lab
+ceTaskId=AXG8uiqgQDkE0YBFc7Cv
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXG8uiqgQDkE0YBFc7Cv
