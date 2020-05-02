@@ -14,8 +14,8 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Javítva
   private Random generator = new Random();
-  
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
@@ -33,6 +33,7 @@ public class TorpedoStore {
 
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
+    	  //Javítva
       throw new IllegalArgumentException("numberOfTorpedos");
     }
 
@@ -43,6 +44,7 @@ public class TorpedoStore {
 
     if (r >= FAILURE_RATE) {
       // successful firing
+    	  //Javítva
       this.torpedoCount -= numberOfTorpedos;
       success = true;
     } else {
